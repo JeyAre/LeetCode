@@ -21,6 +21,7 @@ Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","tes
 Output: 2
 Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails'''
 
+#Solution :
 class Solution(object):
     def numUniqueEmails(self, emails):
         spisok = set()
