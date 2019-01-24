@@ -8,6 +8,7 @@ Example 1:
 Input: J = "aA", S = "aAAbbbb"
 Output: 3 '''
 
+#Solution :
 class Solution(object):
     def numJewelsInStones(self, J, S):
         count = 0
