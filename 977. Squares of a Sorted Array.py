@@ -9,6 +9,7 @@ Example 2:
 Input: [-7,-3,2,3,11]
 Output: [4,9,9,49,121]'''
 
+#Solution :
 class Solution:
     def sortedSquares(self, A):
         for i in range(len(A)):
